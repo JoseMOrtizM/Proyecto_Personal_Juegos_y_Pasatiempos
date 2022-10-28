@@ -1,0 +1,1 @@
+<?php session_start(); session_destroy(); header("location:QMF2016_Adm_Sitio.php"); ?>

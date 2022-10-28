@@ -1,0 +1,257 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote{
+	padding:0;
+	margin:0;
+	font-size:100%;
+	font-weight:normal;
+}
+
+table{border-collapse:collapse;border-spacing:0;}
+td, th, caption{font-weight:normal;text-align:left;}
+ing, fieldset{border:0;}
+ol{padding-left:1.4em;list-style:decimal;}
+ul{padding-left:1.4em;list-style:square;}
+q:before, q:after{content:'';}
+
+/*FIN DEL RESET CSS*/
+
+body{
+	background:url(IMAGENES/LOGO2.jpg);
+}
+
+header{
+	margin:15px auto 0px auto;
+	color:#039;
+	font:bold 2.4em Verdana, Geneva, sans-serif;
+	width:50%;
+	text-align:center;
+	padding:20px auto;
+	border:7px ridge #FF0000;
+	border-radius:70px 15px 70px 15px;
+	box-shadow:#333 7px 5px 10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+}
+
+aside{
+	margin:2px;
+	float:left;
+	background-color:#FFFF99;
+	width:210px;
+	height:1300px;
+	border:5px ridge #FF0000;
+	border-radius:10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+	box-shadow:#333 7px 5px 10px;
+}
+
+section{
+	margin-left:230px;
+	margin-right:2px;
+	background:-moz-radial-gradient(center, ellipse, #FF9, #FFF);
+	background:-ms-radial-gradient(center, ellipse, #FF9, #FFF);
+	background:-webkit-radial-gradient(center, ellipse, #FF9, #FFF);
+	background:-o-radial-gradient(center, ellipse, #FF9, #FFF);
+	border:5px ridge #039;
+	border-radius:10px;
+	text-align:justify;
+	height:auto;
+	padding:0px 30px;
+	box-shadow:#333 7px 5px 10px;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+	margin:5px 2px;
+	padding:10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+	border:5px ridge #FF0000;
+	border-radius:15px 5px 15px 5px;
+	box-shadow:#333 7px 5px 10px;
+}
+
+header h1{
+	margin:3px;
+	font-style:italic;
+}
+
+nav div{
+	margin-left:230px;
+	margin-right:2px;
+	margin-bottom:5px;
+	margin-top:5px;
+	height:41px;
+	background:-moz-linear-gradient(top, #FFF, #666);
+	background:-ms-linear-gradient(top, #FFF, #666);
+	background:-webkit-linear-gradient(top, #FFF, #666);
+	background:-o-linear-gradient(top, #FFF, #666);
+	border:5px ridge #039;
+	border-radius:40px 5px 15px 5px;
+	text-align:right;
+	box-shadow:#333 7px 5px 10px;
+}
+
+nav div blockquote{
+	display:inline;
+	margin:3px 5px;
+	float:right;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+	padding:2px 4px;
+	border:5px ridge #FF0000;
+	border-radius:15px 5px 15px 5px;
+}
+
+nav div blockquote:hover{
+	background:#FCCDAD;
+}
+
+aside figure{
+	margin:20px 20px;
+	border-radius:5px;
+	border:2px hidden #333333;
+}
+
+aside video{
+	margin:20px 5px;
+	border-radius:5px;
+	border:2px hidden #333333;
+}
+
+section h2{
+	margin-top:3px;
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	color:#F00;
+}
+
+section h3{
+	margin-top:3px;
+	font-size:17px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	color:#009;
+}
+
+section h4{
+	margin-top:3px;
+	font-weight:bolder;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	color:#0E5B00;
+}
+
+section p{
+	margin-top:3px;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:oblique;
+	color:#F00;
+}
+
+section ol li{
+	margin-top:2px;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+
+
+table{
+	margin:10px 0px;
+	background:#CCC;
+	border:2px ridge #039;
+	border-radius:5px;
+	height:auto;
+	box-shadow:#333 7px 3px 10px;
+	text-align:center;
+}
+
+td{
+	font-size:13px;
+	text-align:center;
+	width:80px;
+	border:1px ridge #039;
+	height:19px;
+}
+
+input{
+	width:80px;
+	text-align:center;
+}
+
+#usuario{
+	font-size:11px;
+	font-weight:bolder;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:700px;
+	margin-right:2px;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-top:1px;
+	height:15px;
+	text-align:right;
+	border:3px ridge #FF0000;
+	border-radius:70px 15px 70px 15px;
+	box-shadow:#333 7px 5px 10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+}
+
+#desempate{
+	width:35px;
+	text-align:center;
+}
+
+#goleador{
+	width:35px;
+	text-align:center;
+}
+
+#Clasificado_A1{
+	width:35px;
+	text-align:center;
+}
+
+#Clasificado_A2{
+	width:35px;
+	text-align:center;
+}
+.redes_sociales{
+	margin:5px 5px 5px auto;
+	display:inline-block;
+	width:35px;
+	height:35px;
+	position:relative;
+	max-width:1000px;
+	margin:0px auto;
+	overflow:hidden;
+	border:#7C5F43 2px groove;
+	box-shadow:#999 2px 2px;
+}
+.redes_sociales:hover{
+	background-color:#FFc;
+	border:#000 2px groove;
+	box-shadow:#7C5F43 2px 2px;
+}
+.redes_sociales img{
+	margin:0% auto;
+	width:100%;
+	max-width:1000px;
+	border:0px;
+}

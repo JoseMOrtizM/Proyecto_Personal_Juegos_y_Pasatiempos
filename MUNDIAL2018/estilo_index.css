@@ -1,0 +1,110 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote{
+	padding:0;
+	margin:0;
+	font-size:100%;
+	font-weight:normal;
+}
+
+table{border-collapse:collapse;border-spacing:0;}
+td, th, caption{font-weight:normal;text-align:left;}
+ing, fieldset{border:0;}
+ol{padding-left:1.4em;list-style:decimal;}
+ul{padding-left:1.4em;list-style:square;}
+q:before, q:after{content:'';}
+
+/*FIN DEL RESET CSS*/
+
+body{
+	background:url(IMAGENES/LOGO2.jpg);
+}
+
+header{
+	margin:15px auto 0px auto;
+	color:#039;
+	font:bold 2.4em Verdana, Geneva, sans-serif;
+	width:50%;
+	text-align:center;
+	padding:20px auto;
+	border:7px ridge #FF0000;
+	border-radius:70px 15px 70px 15px;
+	box-shadow:#333 7px 5px 10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+}
+
+section{
+	width:40%;
+	margin:auto;
+	background:-moz-radial-gradient(center, ellipse, #FF9, #FFF);
+	background:-ms-radial-gradient(center, ellipse, #FF9, #FFF);
+	background:-webkit-radial-gradient(center, ellipse, #FF9, #FFF);
+	background:-o-radial-gradient(center, ellipse, #FF9, #FFF);
+	border:5px ridge #039;
+	border-radius:10px;
+	text-align:justify;
+	height:auto;
+	padding:0px 60px;
+	box-shadow:#333 7px 5px 10px;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+	margin:5px 2px;
+	padding:10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-ms-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-webkit-radial-gradient(center, ellipse, #FFF, #FF9);
+	background:-o-radial-gradient(center, ellipse, #FFF, #FF9);
+	border:5px ridge #FF0000;
+	border-radius:15px 5px 15px 5px;
+	box-shadow:#333 7px 5px 10px;
+}
+
+header h1{
+	margin:3px;
+	font-style:italic;
+}
+
+
+table{
+	margin:auto;
+	background:#CCC;
+	border:2px ridge #039;
+	border-radius:5px;
+	height:auto;
+	box-shadow:#333 7px 3px 10px;
+	text-align:center;
+}
+
+td{
+	text-align:center;
+	width:35px;
+	border:1px ridge #039;
+	height:19px;
+}
+.redes_sociales{
+	margin:5px 5px 5px auto;
+	display:inline-block;
+	width:35px;
+	height:35px;
+	position:relative;
+	max-width:1000px;
+	margin:0px auto;
+	overflow:hidden;
+	border:#7C5F43 2px groove;
+	box-shadow:#999 2px 2px;
+}
+.redes_sociales:hover{
+	background-color:#FFc;
+	border:#000 2px groove;
+	box-shadow:#7C5F43 2px 2px;
+}
+.redes_sociales img{
+	margin:0% auto;
+	width:100%;
+	max-width:1000px;
+	border:0px;
+}
